@@ -2,12 +2,30 @@
     "version": "0.2.0",
     "configurations": [
         
-        
+
+        {
+            "name": "Launch Program",
+            "program": "${workspaceFolder}/app.js",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "pwa-node"
+        },
+        {
+            "name": "Attach",
+            "port": 9229,
+            "request": "attach",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "pwa-node"
+        },
         {
             "args": [
                 "--extensionDevelopmentPath=${workspaceFolder}"
             ],
-            "name": "Launch Extension",
+            "name": "node.js",
             "outFiles": [
                 "${workspaceFolder}/out/**/*.js"
             ],
@@ -97,6 +115,12 @@
                     "ignoreFailures": true
                 }
             ]
+        },
+        {
+            "type": "node-terminal",
+            "name": "JavaScript Debug Terminal",
+            "request": "launch",
+            "cwd": "${workspaceFolder}"
         },
         {
             "type": "node-terminal",

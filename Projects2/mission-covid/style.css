@@ -1,0 +1,89 @@
+               body {
+                   font-family: 'Poppins', sans-serif;
+               }
+               
+               .green-color {
+                   color: green;
+               }
+               
+               h1 {
+                   font-size: 50px;
+               }
+               
+               .minimum-size {
+                   width: 100;
+                   padding-right: 5%;
+               }
+               
+               section {
+                   display: flex;
+               }
+               
+               .minimum-size img {
+                   width: 500px;
+               }
+               
+               .link-button {
+                   text-decoration: none;
+                   background-image: linear-gradient(orange, tomato);
+                   padding: 10px 40px;
+                   border-radius: 5px;
+                   color: white;
+                   font-weight: 700;
+               }
+               
+               .works-area {
+                   background-image: url(images/latest-work-bg.png);
+                   background-repeat: no-repeat;
+                   background-size: cover;
+               }
+               
+               .works {
+                   height: 500px;
+                   padding-top: 150px;
+                   margin-left: 200px;
+               }
+               
+               .title {
+                   text-align: center;
+                   padding-bottom: 50px;
+               }
+               
+               .single-work {
+                   float: left;
+                   width: 25%;
+                   margin-right: 5%;
+               }
+               
+               .single-work:last-child {
+                   margin-right: 0;
+               }
+               
+               .works-area img {
+                   width: 100%;
+                   box-shadow: 5px 4px 15px gray;
+                   border-radius: 5px;
+               }
+               
+               #work1:hover {
+                   box-shadow: 10px 10px 20px rgba(16, 13, 184, 0.644);
+                   transition: linear;
+               }
+               
+               #work2:hover {
+                   box-shadow: 10px 10px 20px rgba(17, 189, 17, 0.692);
+                   transition: linear;
+               }
+               
+               #work3:hover {
+                   box-shadow: 10px 10px 20px rgba(233, 171, 55, 0.788);
+                   transition: linear;
+               }
+               
+               #ban-image {
+                   width: 100%;
+                   background-image: url(pictures/project.png);
+                   height: 405px;
+                   background-color: purple;
+                   background-position: center;
+               }
